@@ -15,5 +15,5 @@ PROMISES - to take care of async part
 
 ASYNC AWAIT - to take care of the async part but more elegently 
 
-*TRY CATCH - to take care of 
+*TRY CATCH - to take care of the code when it gets the error 
 
