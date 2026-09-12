@@ -67,6 +67,18 @@ const cat=new Cat();
 dog.sound();
 cat.sound();
 
+//abstraction
+class car {
+    start(){
+        this.#startEngine();
+        console.log("car started...");
+    }
+    #startEngine(){
+        console.log("engine started...");
+    }
+}
+const car=new car();
+car.start();// the output will be engine started and car started...
 
 
 
